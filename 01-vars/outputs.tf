@@ -26,6 +26,6 @@ output "env" {
   value = var.env
 }
 
-output "numb1" {
+output "auto_numb1" {
   value = var.auto_numb1
 }
