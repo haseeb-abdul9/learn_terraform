@@ -1,7 +1,32 @@
-output "sample_name" {
-  value = var.sample_name
+variable "sample_name" {
+  default = "hello world"
 }
 
-output "sample_name1" {
-  value = "value of variable_name = ${var.sample_name}"
+variable "sample_number" {
+  default = 100
 }
+
+variable "sample_boolean" {
+  default = true
+}
+
+variable "sample_list" {
+  default = [
+    100,
+    "hello",
+    true,
+    123,
+    false
+  ]
+}
+
+variable "sample_dictionary" {
+  default = {
+    number1 = 100
+    string = "hello"
+    string2 = 123
+    boolean = true
+  }
+}
+
+variable "env" {}
