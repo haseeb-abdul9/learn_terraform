@@ -30,3 +30,4 @@ variable "sample_dictionary" {
 }
 
 variable "env" {}
+variable "auto_numb1" {}

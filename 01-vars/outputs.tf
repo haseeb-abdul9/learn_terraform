@@ -21,3 +21,11 @@ output "sample_list" {
 output "sample_dictionary" {
   value = var.sample_dictionary["string1"]
 }
+
+output "env" {
+  value = var.env
+}
+
+output "numb1" {
+  value = var.auto_numb1
+}
