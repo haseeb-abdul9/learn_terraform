@@ -23,7 +23,7 @@ variable "sample_list" {
 variable "sample_dictionary" {
   default = {
     number1 = 100
-    string = "hello"
+    string1 = "hello"
     string2 = 123
     boolean = true
   }
