@@ -5,6 +5,9 @@ resource "null_resource" "null" {
 resource "null_resource" "list" {
   count = length(var.list)
 
+  provisioner "local-exec" {
+    command = "echo${var.list[count.index]}"
+  }
 }
 
 variable "list" {
