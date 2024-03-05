@@ -30,10 +30,4 @@ output "auto_numb1" {
   value = var.auto_numb1
 }
 
-data "aws_security_group" "allow_all" {
-  name = "allow all"
-}
 
-output "aws_security_group" {
-  value = data.aws_security_group.allow_all.id
-}
