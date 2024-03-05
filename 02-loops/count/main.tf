@@ -13,3 +13,4 @@ resource "null_resource" "list" {
 variable "list" {
   default = ["apple", "banana", "mango"]
 }
+
