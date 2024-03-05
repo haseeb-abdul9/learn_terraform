@@ -6,7 +6,7 @@ variable "list" {
   default = ["apple", "banana", "mango"]
 }
 
-resource "null_resource1" "null" {
+resource "null_resource" "list" {
   count = length(var.list)
 
   provisioner "local-exec" {
