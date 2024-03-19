@@ -1,8 +1,7 @@
 module "sample" {
   source = "./modules"
-  input = "xyz"
+  inout = module.dummy.dummy_op
 }
 module "dummy" {
   source = "./dummy"
-  inout = module.dummy.dummy
 }
