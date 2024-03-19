@@ -4,4 +4,5 @@ module "sample" {
 }
 module "dummy" {
   source = "./dummy"
+  inout = module.dummy.dummy
 }
