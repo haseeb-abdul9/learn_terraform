@@ -1,6 +1,6 @@
 module "sample1" {
   source = "./modules"
-  inout = module.dummy.dummy_op
+  input = module.dummy.dummy_op
 }
 module "dummy" {
   source = "./dummy"
