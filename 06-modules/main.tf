@@ -1,4 +1,4 @@
-module "sample" {
+module "sample1" {
   source = "./modules"
   inout = module.dummy.dummy_op
 }
