@@ -6,7 +6,7 @@ resource "aws_security_group" "allow_tls" {
     description = "TLS from VPC"
     from_port         = 443
     to_port           = 443
-    ip_protocol       = "tcp"
+    protocol       = "tcp"
     cidr_blocks      = ["0.0.0.0/0"]
 
   }
