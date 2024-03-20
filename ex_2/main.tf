@@ -4,5 +4,5 @@ module "sg_id" {
 
 module "ec2" {
   source = "./ec2"
-  sg_id  = module.sg_id
+  sg_id  = module.sg_id.sg_id
 }
